@@ -23,10 +23,10 @@ recognition.onresult = function(event){
 };
 
 array_of_choices = ["motivate","affirmation","affirmation","affirmation","gratitude","principle","love","finance","relax","health",];
- var readrepeat = "word";
+ //var readrepeat = "word";
 function select_random (){
    var item = array_of_choices[Math.floor(Math.random()*array_of_choices.length)];
-   readrepeat = item;
+   //readrepeat = item;
    readOutLoud(item);
    maindiv.style.background  = "lightblue"
 
